@@ -3,10 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="../dist/output.css" />
     <title>Document</title>
   </head>
-  <body>
-    HellO!
+  <body class="font-roboto">
+    <section id="intro" class="bg-cover mx-auto">
+      <div class="mx-auto px-8 lg:px-16 xl:px-32 pb-24 max-w-screen-xl">
+        <header class="flex items-center space-x-10 justify-between py-6">
+          <div>
+            <img src="./img/logo.png" alt="logo" />
+          </div>
+          <nav
+            class="hidden md:flex flex-1 items-center space-x-8 text-base font-bold"
+          >
+            <a href="#" class="hover:text-veryLightBlack">Design</a>
+            <a href="#" class="hover:text-veryLightBlack">Collaborate</a>
+            <a href="#" class="hover:text-veryLightBlack">Apps</a>
+            <a href="#" class="hover:text-veryLightBlack">Resources</a>
+            <a href="#" class="hover:text-veryLightBlack">Pricing</a>
+          </nav>
+          <div class="flex items-center space-x-6 text-base font-bold">
+            <a href="#" class="hover:text-veryLightBlack">Sign In</a>
+            <a
+              href=""
+              class="px-4 py-1 bg-black text-white rounded-md hover:bg-grayLight"
+              >Sign Up for free</a
+            >
+          </div>
+        </header>
+        <div class="flex max-w-3xl flex-col justify-center space-y-10 p-8">
+          <h1 class="text-7xl">
+            Your
+            <span class="inline-flex flex-col">
+              <span>website</span>
+              <div class="w-full h-2 bg-orangeLight rounded-md"></div>
+            </span>
+            <br />
+            start's here
+          </h1>
+          <p class="text-2xl">
+            Sketch is the home for your entire collaborative design process.
+            From early ideas to pixel-perfect artwork, playable prototypes and
+            developer handoff. It all starts here.
+          </p>
+          <div class="flex items-center space-x-14">
+            <a
+              href="#"
+              class="px-5 py-3 bg-white text-blackLight font-bold text-[16px] hover:text-black rounded-md"
+              >Get started for free</a
+            >
+            <a href="#" class="text-[16px] font-bold hover:text-veryLightBlack"
+              >Watch the video</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mx-auto container text-center">
+      <div class="relative h-[800px]">
+        <div class="absolute -top-10 left-72 w-[1008px]">
+          <img src="./img/img-intro-2.png" alt="" />
+        </div>
+        <div class="absolute -top-20 -left-20 w-[1152px]">
+          <img src="./img/img-intro-1.png" alt="" />
+        </div>
+      </div>
+      <h4 class="font-bold text-sm uppercase">
+        Trusted by innovative companies worldwide
+      </h4>
+      <ul
+        class="flex items-center justify-center space-x-[96px] mt-[50px] mb-[150px]"
+      >
+        <li>
+          <img src="./img/facebook.png" alt="tec" />
+        </li>
+        <li>
+          <img src="./img/google.png" alt="tec" />
+        </li>
+        <li>
+          <img src="./img/mit.png" alt="tec" />
+        </li>
+        <li>
+          <img src="./img/stripe.png" alt="tec" />
+        </li>
+        <li>
+          <img src="./img/xbox.png" alt="tec" />
+        </li>
+      </ul>
+    </section>
+    <section class="mx-auto container px-[120px]">
+      <div class="w-full grid grid-cols-2 gap-4 items-center justify-center">
+        <div
+          class="place-self-center col-span-1 row-span-2 bg-veryLightGray pt-[35px]"
+        >
+          <div class="w-full mx-auto">
+            <img class="w-full" src="./img/img-collaborate.png" alt="" />
+          </div>
+        </div>
+        <div class="place-self-center col-span-1 bg-green-200">B</div>
+        <div class="place-self-center col-span-1 bg-red-200">C</div>
+      </div>
+    </section>
   </body>
 </html>

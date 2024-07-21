@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#intro {
+  background-image: url("../src/img/bg-intro.png");
+  background-repeat: no-repeat;
+}
