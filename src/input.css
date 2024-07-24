@@ -6,3 +6,13 @@
   background-image: url("../src/img/bg-intro.png");
   background-repeat: no-repeat;
 }
+
+#tools {
+  background-image: url("../src/img/bg-tools.png");
+  background-repeat: no-repeat;
+}
+
+#design {
+  background-image: url("../src/img/bg-design.png");
+  background-repeat: no-repeat;
+}
