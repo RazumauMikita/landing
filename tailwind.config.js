@@ -14,6 +14,7 @@ module.exports = {
         orangeLight: "hsla(17, 100%, 63%, 1)",
         orangeDark: "hsla(38, 80%, 31%, 1)",
         yellowMedium: "hsla(38, 91%, 55%, 1)",
+        yellowLight: "1hsla(44, 94%, 69%, 1)",
         grayLight: "hsla(240, 3%, 13%, 0.7)",
         veryLightGray: "hsla(0, 0%, 98%, 1)",
         grayBlack: "hsla(240, 3%, 13%, 1)",

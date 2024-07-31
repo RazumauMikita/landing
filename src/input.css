@@ -21,3 +21,18 @@
   background-image: url("../src/img/bg-people.png");
   background-repeat: no-repeat;
 }
+
+.test2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#scale-bg {
+  background-image: url("../src/img/bg-sale.png");
+  background-repeat: no-repeat;
+}
+
+#handoff {
+  background-image: url("../src/img/bg-handoff.png");
+  background-repeat: no-repeat;
+}
