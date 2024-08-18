@@ -36,3 +36,8 @@
   background-image: url("../src/img/bg-handoff.png");
   background-repeat: no-repeat;
 }
+
+#getStarted {
+  background-image: url("../src/img/bg-getStarted.png");
+  background-repeat: no-repeat;
+}
